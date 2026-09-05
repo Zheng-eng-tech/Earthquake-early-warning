@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# MATLAB
+*.asv
+*.mex*
+slprj/
+
+# Large data and model files
+*.mseed
+*.miniseed
+*.h5
+*.hdf5
+*.mat
+*.joblib
+*.pkl
+*.csv
+data/
+results/
+models/
+
+# System files
+.DS_Store
+Thumbs.db
