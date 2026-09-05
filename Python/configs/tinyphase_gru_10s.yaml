@@ -1,0 +1,30 @@
+seed: 20260823
+
+model:
+  input_size: 3
+  hidden_size: 32
+  num_layers: 1
+  bidirectional: true
+  dropout: 0.1
+
+data:
+  sampling_rate_hz: 100
+  window_samples: 1000
+  p_index_min: 100
+  p_index_max: 900
+  minimum_source_p_arrival_sample: 900
+  gaussian_sigma_samples: 5.0
+  train_size: 40000
+  validation_size: 5000
+  test_size: 5000
+  include_noise: false
+
+training:
+  loss: temporal_softmax_cross_entropy
+  batch_size: 128
+  max_epochs: 80
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  gradient_clip_norm: 1.0
+  early_stopping_patience: 10
+  mixed_precision: true
