@@ -1,0 +1,83 @@
+{
+  "catalog_index": 23,
+  "dataset": "ATKA 50",
+  "network": "AK",
+  "station": "ATKA",
+  "channel_type": "BH",
+  "event_id": "609948836",
+  "trace_name": "ATKA.AK_20140423073906_EV",
+  "origin_time_utc": "2014-04-23 07:38:57.670000",
+  "magnitude": 3.8,
+  "magnitude_type": "mb",
+  "distance_km": 111.2,
+  "depth_km": 35,
+  "baz_deg": 356.8,
+  "p_label": "manual",
+  "original_duration_s": 60,
+  "source": "STEAD / Alaska catalog metadata",
+  "source_reference": "https://github.com/smousavi05/STEAD",
+  "p_time_utc": "2014-04-23T07:39:15.150000Z",
+  "requested_start_utc": "2014-04-23T07:38:25.150000Z",
+  "requested_end_exclusive_utc": "2014-04-23T07:41:25.150000Z",
+  "p_reference": "STEAD manual P pick; trace_start_time + p_arrival_sample / 100 Hz",
+  "original_trace_start_utc": "2014-04-23T07:39:07.150000Z",
+  "original_p_sample": 800.0,
+  "original_reference_sampling_hz": 100,
+  "requested_duration_s": 180,
+  "requested_pre_p_s": 50,
+  "files": [
+    "ATKA/023_609948836/waveforms.mseed",
+    "ATKA/023_609948836/response.xml"
+  ],
+  "waveform_download_url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=AK&sta=ATKA&loc=%2A&cha=BH%3F&starttime=2014-04-23T07%3A38%3A23.150000Z&endtime=2014-04-23T07%3A41%3A27.150000Z&nodata=404",
+  "downloaded_at_utc": "2026-09-05T20:41:27.242118Z",
+  "status": "downloaded",
+  "waveform_units": "digital counts",
+  "instrument_correction": "Not applied; full matching instrument response provided in response.xml (StationXML).",
+  "response_download_url": "https://service.earthscope.org/fdsnws/station/1/query?net=AK&sta=ATKA&loc=--&cha=BHE%2CBHN%2CBHZ&starttime=2014-04-23T07%3A38%3A25.148400Z&endtime=2014-04-23T07%3A41%3A25.128400Z&level=response&format=xml&nodata=404",
+  "traces": [
+    {
+      "id": "AK.ATKA..BHE",
+      "sampling_rate_hz": 50.0,
+      "samples": 9000,
+      "start_utc": "2014-04-23T07:38:25.148400Z",
+      "last_sample_utc": "2014-04-23T07:41:25.128400Z",
+      "end_exclusive_utc": "2014-04-23T07:41:25.148400Z",
+      "duration_s": 180.0,
+      "p_offset_s": 50.0016,
+      "start_grid_offset_s": -0.0016
+    },
+    {
+      "id": "AK.ATKA..BHN",
+      "sampling_rate_hz": 50.0,
+      "samples": 9000,
+      "start_utc": "2014-04-23T07:38:25.148400Z",
+      "last_sample_utc": "2014-04-23T07:41:25.128400Z",
+      "end_exclusive_utc": "2014-04-23T07:41:25.148400Z",
+      "duration_s": 180.0,
+      "p_offset_s": 50.0016,
+      "start_grid_offset_s": -0.0016
+    },
+    {
+      "id": "AK.ATKA..BHZ",
+      "sampling_rate_hz": 50.0,
+      "samples": 9000,
+      "start_utc": "2014-04-23T07:38:25.148400Z",
+      "last_sample_utc": "2014-04-23T07:41:25.128400Z",
+      "end_exclusive_utc": "2014-04-23T07:41:25.148400Z",
+      "duration_s": 180.0,
+      "p_offset_s": 50.0016,
+      "start_grid_offset_s": -0.0016
+    }
+  ],
+  "response_validation": "All three channel responses checked at first and last sample; finite nonzero transfer functions at 1, 2 and 5 Hz.",
+  "sha256": {
+    "ATKA/023_609948836/waveforms.mseed": "de395bb39a323c7279bb1dea74c184af9edc873c1eaef62adcd8fef6178f1166",
+    "ATKA/023_609948836/response.xml": "d1cbba99616654c2efcc87bb8b8aefc1d0a429bc9956ed8ea6cd227da85922ba"
+  },
+  "sampling_rate_hz": 50.0,
+  "duration_s": 180.0,
+  "actual_start_utc": "2014-04-23T07:38:25.148400Z",
+  "actual_end_exclusive_utc": "2014-04-23T07:41:25.148400Z",
+  "actual_pre_p_s": 50.0016
+}

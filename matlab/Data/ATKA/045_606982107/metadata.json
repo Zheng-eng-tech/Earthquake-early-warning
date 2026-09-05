@@ -1,0 +1,81 @@
+{
+  "catalog_index": 45,
+  "dataset": "ATKA 50",
+  "network": "AK",
+  "station": "ATKA",
+  "channel_type": "BH",
+  "event_id": "606982107",
+  "trace_name": "ATKA.AK_20150404110805_EV",
+  "origin_time_utc": "2015-04-04 11:07:45.470000",
+  "magnitude": 4.5,
+  "magnitude_type": "mb",
+  "distance_km": 183.03,
+  "depth_km": 10,
+  "baz_deg": 340.6,
+  "p_label": "manual",
+  "original_duration_s": 60,
+  "source": "STEAD / Alaska catalog metadata",
+  "source_reference": "https://github.com/smousavi05/STEAD",
+  "p_time_utc": "2015-04-04T11:08:14.210000Z",
+  "requested_start_utc": "2015-04-04T11:07:24.210000Z",
+  "requested_end_exclusive_utc": "2015-04-04T11:10:24.210000Z",
+  "p_reference": "STEAD manual P pick; trace_start_time + p_arrival_sample / 100 Hz",
+  "original_trace_start_utc": "2015-04-04T11:08:06.210000Z",
+  "original_p_sample": 800.0,
+  "original_reference_sampling_hz": 100,
+  "requested_duration_s": 180,
+  "requested_pre_p_s": 50,
+  "waveform_download_url": "https://service.earthscope.org/fdsnws/dataselect/1/query?net=AK&sta=ATKA&loc=--&cha=BH%3F&starttime=2015-04-04T11%3A07%3A24.210000Z&endtime=2015-04-04T11%3A10%3A24.210000Z&nodata=404",
+  "response_download_url": "https://service.earthscope.org/fdsnws/station/1/query?net=AK&sta=ATKA&loc=--&cha=BH%3F&starttime=2015-04-04T11%3A07%3A24.210000Z&endtime=2015-04-04T11%3A10%3A24.210000Z&nodata=404&level=response&format=xml",
+  "downloaded_at_utc": "2026-09-05T20:50:47.422633Z",
+  "traces": [
+    {
+      "id": "AK.ATKA..BHE",
+      "start_utc": "2015-04-04T11:07:30.008400Z",
+      "last_sample_utc": "2015-04-04T11:10:24.188400Z",
+      "samples": 8710,
+      "sampling_rate_hz": 50.0,
+      "duration_s": 174.2,
+      "p_offset_s": 44.2016,
+      "end_exclusive_utc": "2015-04-04T11:10:24.208400Z"
+    },
+    {
+      "id": "AK.ATKA..BHN",
+      "start_utc": "2015-04-04T11:07:30.008400Z",
+      "last_sample_utc": "2015-04-04T11:10:24.188400Z",
+      "samples": 8710,
+      "sampling_rate_hz": 50.0,
+      "duration_s": 174.2,
+      "p_offset_s": 44.2016,
+      "end_exclusive_utc": "2015-04-04T11:10:24.208400Z"
+    },
+    {
+      "id": "AK.ATKA..BHZ",
+      "start_utc": "2015-04-04T11:07:30.008400Z",
+      "last_sample_utc": "2015-04-04T11:10:24.188400Z",
+      "samples": 8710,
+      "sampling_rate_hz": 50.0,
+      "duration_s": 174.2,
+      "p_offset_s": 44.2016,
+      "end_exclusive_utc": "2015-04-04T11:10:24.208400Z"
+    }
+  ],
+  "waveform_units": "digital counts",
+  "waveform_data_center": "EarthScope",
+  "instrument_correction": "Not applied; full matching instrument response provided in response.xml (StationXML).",
+  "files": [
+    "ATKA/045_606982107/waveforms.mseed",
+    "ATKA/045_606982107/response.xml"
+  ],
+  "sha256": {
+    "ATKA/045_606982107/waveforms.mseed": "11107bd96c7a88332d2c5c59494048874ad222b43594dee3e2b536cf5f89cfbf",
+    "ATKA/045_606982107/response.xml": "891d761bc44cd7b78608d08f168a62fef0f0db9b5a84f073945db2bfa6d301f5"
+  },
+  "sampling_rate_hz": 50.0,
+  "duration_s": 174.2,
+  "actual_start_utc": "2015-04-04T11:07:30.008400Z",
+  "actual_end_exclusive_utc": "2015-04-04T11:10:24.208400Z",
+  "actual_pre_p_s": 44.2016,
+  "response_validation": "All three channel responses checked at first and last sample; finite nonzero transfer functions at 1, 2 and 5 Hz.",
+  "status": "downloaded"
+}
