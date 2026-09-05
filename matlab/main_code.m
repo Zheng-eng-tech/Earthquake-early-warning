@@ -1,10 +1,5 @@
 %% E3WS V5 complete state-machine Adaptive Gate
-% Four states are used: COLD_START, ADAPTIVE_READY, EVENT_ACTIVE and
-% RECOVERY.  Background samples are delayed and audited before commitment.
-% After a P pick, P+3 ... P+7 runs causally and independently of Gate state.
-% Figure-B version of the new Gate: retrospective DET on the two preceding
-% windows plus an independent >=10 dB inter-window SNR-jump trigger.
-% The supplied original Figure-B file is not modified.
+ 
 clc;
 clear;
 close all;
