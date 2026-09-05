@@ -30,6 +30,4 @@ Replace the example path with your local Python installation path.
 
 The training code and the newly trained **Tinyphase-GRU** model are included in the `Python` folder.
 
-## Model Files
-
-The origional source parameter estimation model files are too large to upload and are therefore **not included in this repository**. Please download them directly from [the **E3WS GitHub repository**](https://github.com/PabloELara/E3WS.git) before running the main program, and place them at the paths expected by the code.
+ 
