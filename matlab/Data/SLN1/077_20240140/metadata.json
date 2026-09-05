@@ -1,0 +1,42 @@
+{
+  "catalog_index": 77,
+  "dataset": "SLN1 30",
+  "network": "PE",
+  "station": "SLN1",
+  "channel_type": "ACC",
+  "event_id": "20240140",
+  "trace_name": "20240140_20240304_145927_SLN1_PE.txt",
+  "origin_time_utc": "2024-03-04 14:59:27",
+  "magnitude": 4.5,
+  "magnitude_type": "IGP catalog magnitude",
+  "distance_km": 43.9,
+  "depth_km": 83,
+  "baz_deg": 89.17995624618054,
+  "p_label": "theoretical (iasp91)",
+  "original_duration_s": 83.48,
+  "source": "Instituto Geofísico del Perú (IGP)",
+  "source_reference": "https://www.igp.gob.pe/servicios/api-acelerometrica/ran/file/20240140_20240304_145927_SLN1_PE.txt",
+  "p_time_utc": "2024-03-04T14:59:40.206788Z",
+  "p_reference": "Theoretical iasp91 arrival; not a manual pick",
+  "original_pre_p_s": 7.206788,
+  "original_sampling_hz": 100.0,
+  "original_samples": 8348,
+  "files": [
+    "SLN1/077_20240140/20240140_20240304_145927_SLN1_PE.txt"
+  ],
+  "status": "original_copied",
+  "waveform_units": "cm/s^2",
+  "instrument_correction": "Already instrument-corrected by IGP, as stated in original header; do not remove response again.",
+  "duration_s": 83.48,
+  "components": [
+    "Z",
+    "N",
+    "E"
+  ],
+  "source_sha256": "87d17573bbbbdb1418200d0a3db110aeb07a6bbb5fb80f978792e3f75e1f9843",
+  "sha256": {
+    "SLN1/077_20240140/20240140_20240304_145927_SLN1_PE.txt": "87d17573bbbbdb1418200d0a3db110aeb07a6bbb5fb80f978792e3f75e1f9843"
+  },
+  "sampling_rate_hz": 100.0,
+  "actual_pre_p_s": 7.206788
+}
