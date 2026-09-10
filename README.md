@@ -35,8 +35,4 @@ The newly trained TinyPhase-GRU model is included in:
 Python/tinyphase_gru_10s_p100_900/best.py
 ```
 
-## External E3WS Model Files
 
-The reference E3WS source-parameter estimation model files are not included in this repository because of their file sizes. Before running the complete workflow, download the required model files from the upstream E3WS repository and place them in the paths expected by the code:
-
-https://github.com/PabloELara/E3WS
