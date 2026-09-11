@@ -1,1 +1,4 @@
 models/BAZ/** filter=lfs diff=lfs merge=lfs -text
+models/DEP/** filter=lfs diff=lfs merge=lfs -text
+models/DIS/** filter=lfs diff=lfs merge=lfs -text
+models/MAG/** filter=lfs diff=lfs merge=lfs -text
